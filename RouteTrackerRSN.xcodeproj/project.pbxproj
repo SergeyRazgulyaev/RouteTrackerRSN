@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5C32F059A54DADF992D4F2A /* Pods_RouteTrackerRSN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4490CA5CEC1E7A1468B8E56 /* Pods_RouteTrackerRSN.framework */; };
+		C584DCCB261CB8D900776628 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584DCCA261CB8D900776628 /* RealmManager.swift */; };
+		C584DCD6261CBE2600776628 /* RoutePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584DCD5261CBE2600776628 /* RoutePaths.swift */; };
+		C584DCF6261DD21C00776628 /* MapScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584DCF5261DD21C00776628 /* MapScreenView.swift */; };
+		C584DD17262053C700776628 /* LogInScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584DD16262053C600776628 /* LogInScreenView.swift */; };
+		C584DD20262054DA00776628 /* UIComponentsMakeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584DD1F262054DA00776628 /* UIComponentsMakeable.swift */; };
+		C584DD2A2620561500776628 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584DD292620561500776628 /* UIColorExtension.swift */; };
+		C584DD2F2620588700776628 /* LogInScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584DD2E2620588700776628 /* LogInScreenViewController.swift */; };
+		C584DD342620599D00776628 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584DD332620599D00776628 /* StringExtensions.swift */; };
+		C584DD3A26205A4900776628 /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584DD3926205A4900776628 /* Alertable.swift */; };
+		C584DD3E2620621100776628 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584DD3D2620621100776628 /* User.swift */; };
+		C584DD44262067CD00776628 /* SignUpScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584DD43262067CD00776628 /* SignUpScreenView.swift */; };
+		C584DD48262067E100776628 /* SignUpScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584DD47262067E100776628 /* SignUpScreenViewController.swift */; };
+		C584DD4E26238E2900776628 /* RestorePasswordScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584DD4D26238E2900776628 /* RestorePasswordScreenView.swift */; };
+		C584DD5226238E4400776628 /* RestorePasswordScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584DD5126238E4400776628 /* RestorePasswordScreenViewController.swift */; };
+		C584DD5826239A5300776628 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C584DD5726239A5300776628 /* TabBarController.swift */; };
+		C594C8B62631662200E84DDF /* NotificationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C594C8B52631662200E84DDF /* NotificationRepository.swift */; };
+		C594C8BB26322DEB00E84DDF /* AppDelegate+Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C594C8BA26322DEB00E84DDF /* AppDelegate+Notifications.swift */; };
+		C5982BAE2628AC2500D5E52A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5982BAD2628AC2500D5E52A /* LocationManager.swift */; };
+		C5D094E52617273F00DF5B52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D094E42617273F00DF5B52 /* AppDelegate.swift */; };
+		C5D094E72617273F00DF5B52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D094E62617273F00DF5B52 /* SceneDelegate.swift */; };
+		C5D094E92617273F00DF5B52 /* MapScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D094E82617273F00DF5B52 /* MapScreenViewController.swift */; };
+		C5D094EE2617274300DF5B52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D094ED2617274300DF5B52 /* Assets.xcassets */; };
+		C5D094F12617274300DF5B52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D094EF2617274300DF5B52 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C584DCCA261CB8D900776628 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		C584DCD5261CBE2600776628 /* RoutePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePaths.swift; sourceTree = "<group>"; };
+		C584DCF5261DD21C00776628 /* MapScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenView.swift; sourceTree = "<group>"; };
+		C584DD16262053C600776628 /* LogInScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInScreenView.swift; sourceTree = "<group>"; };
+		C584DD1F262054DA00776628 /* UIComponentsMakeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponentsMakeable.swift; sourceTree = "<group>"; };
+		C584DD292620561500776628 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		C584DD2E2620588700776628 /* LogInScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInScreenViewController.swift; sourceTree = "<group>"; };
+		C584DD332620599D00776628 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		C584DD3926205A4900776628 /* Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
+		C584DD3D2620621100776628 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C584DD43262067CD00776628 /* SignUpScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreenView.swift; sourceTree = "<group>"; };
+		C584DD47262067E100776628 /* SignUpScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreenViewController.swift; sourceTree = "<group>"; };
+		C584DD4D26238E2900776628 /* RestorePasswordScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestorePasswordScreenView.swift; sourceTree = "<group>"; };
+		C584DD5126238E4400776628 /* RestorePasswordScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestorePasswordScreenViewController.swift; sourceTree = "<group>"; };
+		C584DD5726239A5300776628 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		C594C8B52631662200E84DDF /* NotificationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationRepository.swift; sourceTree = "<group>"; };
+		C594C8BA26322DEB00E84DDF /* AppDelegate+Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Notifications.swift"; sourceTree = "<group>"; };
+		C5982BAD2628AC2500D5E52A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C5D094E12617273F00DF5B52 /* RouteTrackerRSN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouteTrackerRSN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D094E42617273F00DF5B52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5D094E62617273F00DF5B52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C5D094E82617273F00DF5B52 /* MapScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenViewController.swift; sourceTree = "<group>"; };
+		C5D094ED2617274300DF5B52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5D094F02617274300DF5B52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5D094F22617274300DF5B52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7AC68436645C0CC63D73176 /* Pods-RouteTrackerRSN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RouteTrackerRSN.debug.xcconfig"; path = "Target Support Files/Pods-RouteTrackerRSN/Pods-RouteTrackerRSN.debug.xcconfig"; sourceTree = "<group>"; };
+		DBF90B219FB0AABA02C9270A /* Pods-RouteTrackerRSN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RouteTrackerRSN.release.xcconfig"; path = "Target Support Files/Pods-RouteTrackerRSN/Pods-RouteTrackerRSN.release.xcconfig"; sourceTree = "<group>"; };
+		F4490CA5CEC1E7A1468B8E56 /* Pods_RouteTrackerRSN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RouteTrackerRSN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5D094DE2617273F00DF5B52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C32F059A54DADF992D4F2A /* Pods_RouteTrackerRSN.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57A8D2622138315EA3F78E92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7AC68436645C0CC63D73176 /* Pods-RouteTrackerRSN.debug.xcconfig */,
+				DBF90B219FB0AABA02C9270A /* Pods-RouteTrackerRSN.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E3C22408B3C87D0FF1F8461 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4490CA5CEC1E7A1468B8E56 /* Pods_RouteTrackerRSN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C584DCC8261CB8BF00776628 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C594C8B42631660300E84DDF /* NotificationCenter */,
+				C584DCC9261CB8C800776628 /* Realm */,
+				C5982BAC2628ABDD00D5E52A /* LocationManager */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C584DCC9261CB8C800776628 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				C584DCCA261CB8D900776628 /* RealmManager.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		C584DCD3261CBD8600776628 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				C584DCD4261CBD9A00776628 /* ForRealm */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		C584DCD4261CBD9A00776628 /* ForRealm */ = {
+			isa = PBXGroup;
+			children = (
+				C584DCD5261CBE2600776628 /* RoutePaths.swift */,
+				C584DD3D2620621100776628 /* User.swift */,
+			);
+			path = ForRealm;
+			sourceTree = "<group>";
+		};
+		C584DCF2261DD18600776628 /* MapScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C584DCF3261DD1C000776628 /* View */,
+				C584DCF4261DD1C700776628 /* ViewController */,
+			);
+			path = MapScreen;
+			sourceTree = "<group>";
+		};
+		C584DCF3261DD1C000776628 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C584DCF5261DD21C00776628 /* MapScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C584DCF4261DD1C700776628 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C5D094E82617273F00DF5B52 /* MapScreenViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C584DD132620539300776628 /* LogInScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C584DD14262053A600776628 /* View */,
+				C584DD15262053AC00776628 /* ViewController */,
+			);
+			path = LogInScreen;
+			sourceTree = "<group>";
+		};
+		C584DD14262053A600776628 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C584DD16262053C600776628 /* LogInScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C584DD15262053AC00776628 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C584DD2E2620588700776628 /* LogInScreenViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C584DD1A2620540B00776628 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				C584DD132620539300776628 /* LogInScreen */,
+				C584DD402620671300776628 /* SignUpScreen */,
+				C584DD4A26238DCE00776628 /* RestorePasswordScreen */,
+				C584DD55262399E500776628 /* TabBarController */,
+				C584DCF2261DD18600776628 /* MapScreen */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		C584DD1B2620545D00776628 /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				C5D094F22617274300DF5B52 /* Info.plist */,
+			);
+			path = Environments;
+			sourceTree = "<group>";
+		};
+		C584DD1C2620547700776628 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5D094ED2617274300DF5B52 /* Assets.xcassets */,
+				C5D094EF2617274300DF5B52 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C584DD1D262054BA00776628 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				C584DD3826205A2200776628 /* Alerts */,
+				C584DD28262055FC00776628 /* UIColor */,
+				C584DD1E262054C500776628 /* UIComponents */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		C584DD1E262054C500776628 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				C584DD1F262054DA00776628 /* UIComponentsMakeable.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		C584DD28262055FC00776628 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				C584DD292620561500776628 /* UIColorExtension.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		C584DD312620598900776628 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C584DD322620599200776628 /* String */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C584DD322620599200776628 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				C584DD332620599D00776628 /* StringExtensions.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		C584DD3826205A2200776628 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				C584DD3926205A4900776628 /* Alertable.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		C584DD402620671300776628 /* SignUpScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C584DD412620673700776628 /* View */,
+				C584DD422620673E00776628 /* ViewController */,
+			);
+			path = SignUpScreen;
+			sourceTree = "<group>";
+		};
+		C584DD412620673700776628 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C584DD43262067CD00776628 /* SignUpScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C584DD422620673E00776628 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C584DD47262067E100776628 /* SignUpScreenViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C584DD4A26238DCE00776628 /* RestorePasswordScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C584DD4C26238DE500776628 /* View */,
+				C584DD4B26238DDD00776628 /* ViewController */,
+			);
+			path = RestorePasswordScreen;
+			sourceTree = "<group>";
+		};
+		C584DD4B26238DDD00776628 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C584DD5126238E4400776628 /* RestorePasswordScreenViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C584DD4C26238DE500776628 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C584DD4D26238E2900776628 /* RestorePasswordScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C584DD55262399E500776628 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				C584DD5626239A2000776628 /* ViewController */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		C584DD5626239A2000776628 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C584DD5726239A5300776628 /* TabBarController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C594C8B42631660300E84DDF /* NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				C594C8B52631662200E84DDF /* NotificationRepository.swift */,
+			);
+			path = NotificationCenter;
+			sourceTree = "<group>";
+		};
+		C5982BAC2628ABDD00D5E52A /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				C5982BAD2628AC2500D5E52A /* LocationManager.swift */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		C5D094D82617273F00DF5B52 = {
+			isa = PBXGroup;
+			children = (
+				C5D094E32617273F00DF5B52 /* RouteTrackerRSN */,
+				C5D094E22617273F00DF5B52 /* Products */,
+				57A8D2622138315EA3F78E92 /* Pods */,
+				5E3C22408B3C87D0FF1F8461 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5D094E22617273F00DF5B52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5D094E12617273F00DF5B52 /* RouteTrackerRSN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5D094E32617273F00DF5B52 /* RouteTrackerRSN */ = {
+			isa = PBXGroup;
+			children = (
+				C5D094E42617273F00DF5B52 /* AppDelegate.swift */,
+				C594C8BA26322DEB00E84DDF /* AppDelegate+Notifications.swift */,
+				C5D094E62617273F00DF5B52 /* SceneDelegate.swift */,
+				C584DCC8261CB8BF00776628 /* Services */,
+				C584DCD3261CBD8600776628 /* Entity */,
+				C584DD1A2620540B00776628 /* Flows */,
+				C584DD1C2620547700776628 /* Resources */,
+				C584DD1B2620545D00776628 /* Environments */,
+				C584DD312620598900776628 /* Extensions */,
+				C584DD1D262054BA00776628 /* DesignSystem */,
+			);
+			path = RouteTrackerRSN;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5D094E02617273F00DF5B52 /* RouteTrackerRSN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D094F52617274300DF5B52 /* Build configuration list for PBXNativeTarget "RouteTrackerRSN" */;
+			buildPhases = (
+				9D1A4D645E2F2DE234256EE3 /* [CP] Check Pods Manifest.lock */,
+				C5D094DD2617273F00DF5B52 /* Sources */,
+				C5D094DE2617273F00DF5B52 /* Frameworks */,
+				C5D094DF2617273F00DF5B52 /* Resources */,
+				4ACD27DBA089EF82D975F3E6 /* [CP] Copy Pods Resources */,
+				78B9B43D92FFBDB63EC28FBE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RouteTrackerRSN;
+			productName = RouteTrackerRSN;
+			productReference = C5D094E12617273F00DF5B52 /* RouteTrackerRSN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5D094D92617273F00DF5B52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C5D094E02617273F00DF5B52 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = C5D094DC2617273F00DF5B52 /* Build configuration list for PBXProject "RouteTrackerRSN" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5D094D82617273F00DF5B52;
+			productRefGroup = C5D094E22617273F00DF5B52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5D094E02617273F00DF5B52 /* RouteTrackerRSN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5D094DF2617273F00DF5B52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D094F12617274300DF5B52 /* LaunchScreen.storyboard in Resources */,
+				C5D094EE2617274300DF5B52 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4ACD27DBA089EF82D975F3E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RouteTrackerRSN/Pods-RouteTrackerRSN-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RouteTrackerRSN/Pods-RouteTrackerRSN-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RouteTrackerRSN/Pods-RouteTrackerRSN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78B9B43D92FFBDB63EC28FBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RouteTrackerRSN/Pods-RouteTrackerRSN-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RouteTrackerRSN/Pods-RouteTrackerRSN-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RouteTrackerRSN/Pods-RouteTrackerRSN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D1A4D645E2F2DE234256EE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RouteTrackerRSN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5D094DD2617273F00DF5B52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C584DD5226238E4400776628 /* RestorePasswordScreenViewController.swift in Sources */,
+				C584DD3E2620621100776628 /* User.swift in Sources */,
+				C5D094E92617273F00DF5B52 /* MapScreenViewController.swift in Sources */,
+				C584DD5826239A5300776628 /* TabBarController.swift in Sources */,
+				C584DCD6261CBE2600776628 /* RoutePaths.swift in Sources */,
+				C584DCF6261DD21C00776628 /* MapScreenView.swift in Sources */,
+				C584DD48262067E100776628 /* SignUpScreenViewController.swift in Sources */,
+				C594C8B62631662200E84DDF /* NotificationRepository.swift in Sources */,
+				C594C8BB26322DEB00E84DDF /* AppDelegate+Notifications.swift in Sources */,
+				C584DD44262067CD00776628 /* SignUpScreenView.swift in Sources */,
+				C584DD20262054DA00776628 /* UIComponentsMakeable.swift in Sources */,
+				C584DD2F2620588700776628 /* LogInScreenViewController.swift in Sources */,
+				C584DCCB261CB8D900776628 /* RealmManager.swift in Sources */,
+				C584DD3A26205A4900776628 /* Alertable.swift in Sources */,
+				C584DD342620599D00776628 /* StringExtensions.swift in Sources */,
+				C584DD2A2620561500776628 /* UIColorExtension.swift in Sources */,
+				C584DD4E26238E2900776628 /* RestorePasswordScreenView.swift in Sources */,
+				C5D094E52617273F00DF5B52 /* AppDelegate.swift in Sources */,
+				C584DD17262053C700776628 /* LogInScreenView.swift in Sources */,
+				C5982BAE2628AC2500D5E52A /* LocationManager.swift in Sources */,
+				C5D094E72617273F00DF5B52 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5D094EF2617274300DF5B52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5D094F02617274300DF5B52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5D094F32617274300DF5B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5D094F42617274300DF5B52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5D094F62617274300DF5B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7AC68436645C0CC63D73176 /* Pods-RouteTrackerRSN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3X7CT39LZ;
+				INFOPLIST_FILE = "$(SRCROOT)/RouteTrackerRSN/Environments/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergey.razgulyaev.RouteTrackerRSN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5D094F72617274300DF5B52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBF90B219FB0AABA02C9270A /* Pods-RouteTrackerRSN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P3X7CT39LZ;
+				INFOPLIST_FILE = "$(SRCROOT)/RouteTrackerRSN/Environments/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sergey.razgulyaev.RouteTrackerRSN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5D094DC2617273F00DF5B52 /* Build configuration list for PBXProject "RouteTrackerRSN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D094F32617274300DF5B52 /* Debug */,
+				C5D094F42617274300DF5B52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D094F52617274300DF5B52 /* Build configuration list for PBXNativeTarget "RouteTrackerRSN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D094F62617274300DF5B52 /* Debug */,
+				C5D094F72617274300DF5B52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5D094D92617273F00DF5B52 /* Project object */;
+}
